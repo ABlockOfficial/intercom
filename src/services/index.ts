@@ -6,7 +6,7 @@ import {
     IRequestIntercomDelBody,
     IRequestIntercomGetBody,
     IRequestIntercomSetBody
-} from '@zenotta/zenotta-js';
+} from '@a-block/a-blockjs';
 import { IS_PRODUCTION, KEY_LIFETIME } from '../constants';
 import { redisClient } from '../db';
 import {

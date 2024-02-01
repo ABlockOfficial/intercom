@@ -2,7 +2,7 @@ import {
     IRequestIntercomGetBody,
     IRequestIntercomSetBody,
     IRequestIntercomDelBody
-} from '@zenotta/zenotta-js';
+} from '@a-block/a-blockjs';
 import { Request, Response, NextFunction } from 'express';
 
 export const EMPTY_REQUEST_GET_BODY: IRequestIntercomGetBody = {
